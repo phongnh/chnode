@@ -18,7 +18,7 @@ source ~/.chnode-fish/chnode.fish
 source ~/.chnode-fish/auto.fish
 ```
 
-You can to use [node-build](https://github.com/nodenv/node-build) to install Node.js
+You can use [node-build](https://github.com/nodenv/node-build) to install Node.js
 
 ```
 node-build 16.10.0 ~/.nodes/16.10.0
