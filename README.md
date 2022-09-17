@@ -1,22 +1,45 @@
-# chnode-fish
+# chnode
 
-Like chruby but for Node.js and Fish shell.
+Like chruby but for Node.js
 
 # Usage
+
+## Install
 
 Clone project
 
 ```
-git clone https://github.com/phongnh/chnode-fish.git ~/.chnode-fish
+git clone https://github.com/phongnh/chnode.git ~/.chnode
 ```
 
+## Fish shell
 
 Add the following lines to your `~/.config/fish/config.fish`
 
 ```
-source ~/.chnode-fish/chnode.fish
-source ~/.chnode-fish/auto.fish
+source ~/.chnode/chnode.fish
+source ~/.chnode/auto.fish
 ```
+
+## Z shell
+
+Add the following lines to your `~/.zshrc`
+
+```
+source ~/.chnode/chnode.sh
+source ~/.chnode/auto.sh
+```
+
+## Bash shell
+
+Add the following lines to your `~/.bashrc`
+
+```
+source ~/.chnode/chnode.sh
+source ~/.chnode/auto.sh
+```
+
+## Install NodeJS versions
 
 You can use [node-build](https://github.com/nodenv/node-build) to install Node.js
 
