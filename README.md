@@ -12,15 +12,6 @@ Clone project
 git clone https://github.com/phongnh/chnode.git ~/.chnode
 ```
 
-## Fish shell
-
-Add the following lines to your `~/.config/fish/config.fish`
-
-```
-source ~/.chnode/chnode.fish
-source ~/.chnode/auto.fish
-```
-
 ## Z shell
 
 Add the following lines to your `~/.zshrc`
@@ -38,6 +29,10 @@ Add the following lines to your `~/.bashrc`
 source ~/.chnode/chnode.sh
 source ~/.chnode/auto.sh
 ```
+
+## Fish shell
+
+Please check the repo [chnode-fish](https://github.com/phongnh/chnode-fish).
 
 ## Install NodeJS versions
 
